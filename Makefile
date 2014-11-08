@@ -1,6 +1,6 @@
 CC = sdcc
 FLAGS = -mmcs51 --model-small --std-c99
-FILENAME = timer
+FILENAME = show
 
 MAKEHEX = packihx
 
