@@ -23,6 +23,6 @@ clean:
 	
 
 fire:
-	stcflash timer.bin  ###
+	stcflash $(FILENAME).bin  ###
 	# I hate sudo
 	#sudo stcflash timer.bin  ###
